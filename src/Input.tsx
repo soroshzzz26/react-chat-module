@@ -1,6 +1,5 @@
 import React, { createRef, FunctionComponent } from "react";
 import { OnMessageSend } from "./index";
-import style from "./style/Input.scss";
 import { SendButtonRenderer } from "./Renderer/SendButtonRenderer";
 
 interface Props {
