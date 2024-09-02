@@ -38,7 +38,7 @@ export const Input: FunctionComponent<Props> = (props: Props) => {
     };
 
     return (
-        <div className={style.input}>
+        <div className={'chat-inp'}>
             <textarea ref={inputField} onKeyPress={handleInputKey} />
             <div onClick={handleSend}>
                 {props.sendButton ?? <SendButtonRenderer />}
